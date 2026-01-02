@@ -44,7 +44,7 @@ export default function Header() {
             transition={{ duration: 0.6 }}
             className="text-lg font-semibold text-black hover:font-bold hover:text-black"
           >
-            Sourav
+            
           </motion.div>
 
           {/* Menu */}
