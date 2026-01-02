@@ -15,10 +15,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold text-gray-900 mb-10"
         >
-          <span className="  px-2 py-1 rounded">
-            About
-          </span>{" "}
-          Me
+          <span className="  px-2 py-1 rounded">About</span> Me
         </motion.h2>
 
         {/* Paragraph */}
@@ -29,20 +26,19 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-gray-700 leading-relaxed text-lg"
         >
-          After graduating with a degree in{" "}
-          <strong>Mechanical Engineering</strong>, I decided to pursue my
-          passion for programming. I took many courses in coding and learned{" "}
-          <strong>full-stack web development</strong>. My favorite part of
-          programming is the <em>problem-solving aspect</em>. I love the feeling
-          of finally figuring out a solution to a problem.
+          After graduating with a degree in <strong>BBA (Management)</strong>, I
+          decided to pursue my passion for programming. I took many courses in
+          coding and learned <strong>MERN stack web development</strong>. My
+          favorite part of programming is the <em>problem-solving aspect</em>. I
+          love the feeling of finally figuring out a solution to a problem.
           <br />
           <br />
           My core stack is{" "}
           <span className="font-medium">
-            TypeScript, React, Next.js, Node.js, and PostgreSQL
+            javaScript, React, Next.js, Node.js, and SQL
           </span>
-          . I am also familiar with <strong>GraphQL</strong> and{" "}
-          <strong>Prisma</strong>. I am always looking to learn new
+          . I am also familiar with <strong>Express.js</strong> and{" "}
+          <strong>PostgreSQL</strong>. I am always looking to learn new
           technologies. I am currently looking for a{" "}
           <span className="font-semibold">
             full-time position as a software developer
