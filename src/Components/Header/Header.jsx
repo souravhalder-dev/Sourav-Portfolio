@@ -6,17 +6,20 @@ export default function Header() {
   return (
     <header className="fixed top-0 z-50 w-full pt-5">
       <nav className="mx-auto max-w-5xl px-6">
-        <div className="flex items-center justify-between rounded-full border border-white/10 bg-white/5 px-6 py-3.5 backdrop-blur-xl">
+        <div
+          id="header"
+          className="flex items-center justify-between rounded-full border border-white/10 bg-white/5 px-6 py-3.5 backdrop-blur-xl"
+        >
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-lg font-semibold text-white"
+            className="text-lg font-semibold text-black"
           >
-            Sourav
+ 
           </motion.div>
 
-          <div className="hidden items-center gap-10 md:flex">
+          <div className="hidden items-center    gap-10 md:flex">
             {[
               "Home",
               "About",
@@ -28,7 +31,7 @@ export default function Header() {
               <motion.a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-sm text-gray-300 transition-colors hover:text-white"
+                className="text-sm text-black transition-colors hover:text-lightBlue-500"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
@@ -47,7 +50,7 @@ export default function Header() {
             >
               <Linkedin
                 size={20}
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-gray-400 hover:text-black transition-colors"
               />
             </motion.a>
 
@@ -60,7 +63,7 @@ export default function Header() {
             >
               <Github
                 size={20}
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-gray-400 hover:text-black transition-colors"
               />
             </motion.a>
           </div>
